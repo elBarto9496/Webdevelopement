@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Practice <form action=""></form>
+    </title>
+</head>
+
+<body>
+    <h1>Form Demo</h1>
+    <form action="https://www.google.com/search">
+        <P>
+            <label>
+
+                Username:<input type="text" id="uname" placeholder="Please enter a username">
+            </label>
+        </P>
+        <p>
+            <label>
+                Password:<input type="password" placeholder="Please enter a password">
+            </label>
+        </p>
+        <p>
+            <input type="text" name="q">
+        </p>
+        <button>
+            Search Google
+        </button>
+    </form>
+    <hr>
+    <form action="donothing.html">
+        <div>
+            <label>
+                Do you want to agree to the terms and conditions?<input type="checkbox">
+            </label>
+        </div>
+        <div>
+            <label>
+                Please select the Shirtsz
+                <div>
+                    <label>
+                        Large <input type="radio" name="shirtsz" value="Large" id="shirtsz">
+                    </label>
+                    <label>
+                        Medium <input type="radio" name="shirtsz" value="Medium" id="shirtsz">
+                    </label>
+                    <label>
+                        Small <input type="radio" name="shirtsz" value="Small" id="shirtsz">
+                    </label>
+                </div>
+            </label>
+        </div>
+    </form>
+    <form action="cheeselevel">
+        <label>
+            Amount of CHeese<input type="range" name="cheese" min="1" max="10">
+        </label>
+        <button>
+            Submit
+        </button>
+    </form>
+    <p>
+        <label for="Textinp"> Any special requests?</label>
+        <br>
+        <textarea name="Requests?" id="Textinp" cols="30" rows="10" placeholder="Please enter text here"></textarea>
+    </p>
+    <h2>Demo</h2>
+    <form action="funn">
+        <div><label for="fname">First name:</label>
+            <input type="text" name="fname" id="fname" required>
+        </div>
+        <div><label for="uname">User name</label>
+            <input type="text" name="uname" id="uname" required minlength="5" maxlength="8">
+        </div>
+        <div><label for="pwd"> Password </label>
+            <input type="text" name="pwd" id="pwd" required minlength="7" maxlength="12">
+        </div>
+        <div>
+            <button>
+                Submit
+            </button>
+        </div>
+    </form>
+
+</body>
+
+</html>

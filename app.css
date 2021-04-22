@@ -1,0 +1,22 @@
+h1 {
+  text-align: right;
+  font-weight: 400;
+  color: rgb(0, 4, 7);
+  width: 50%;
+  text-decoration: wavy blue underline;
+  font-size: 100px;
+}
+
+p {
+  text-align: justify;
+  font-weight: normal;
+  line-height: 2;
+  letter-spacing: 2px;
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: green;
+}
