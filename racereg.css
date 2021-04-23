@@ -1,0 +1,24 @@
+h1 {
+  color: rgba(197, 93, 33, 0.486);
+}
+
+input[type="password"] {
+  color: red;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  background: black;
+}
+
+h1 {
+  color: #1100ff;
+}
+
+p::after {
+  content: "Why the fuck!! ";
+}

@@ -1,3 +1,21 @@
 * {
   color: pink;
 }
+button {
+  width: 100px;
+  height: 20px;
+}
+h1,
+p {
+  color: yellowgreen;
+  font-size: 20px;
+}
+
+#button1 {
+  color: yellowgreen;
+  background-color: white;
+}
+
+.tag {
+  color: blueviolet;
+}
